@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+// src/App.js
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import GetStarted from './GetStarted';
+
+function Home() {
+  return (
+    <div className="App">
+      <header className="hero">
+        <h1>Welcome to Travel Planner</h1>
+        <p>Your personalized guide to explore tourist places across India.</p>
+        <Link to="/get-started" className="cta-button">Get Started</Link>
+      </header>
+    </div>
+  );
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/get-started" element={<GetStarted />} />
+      </Routes>
+    </Router>
   );
 }
 
