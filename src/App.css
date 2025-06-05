@@ -1,6 +1,14 @@
+body {
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+
 /* Hero Section */
 .hero {
-  background: linear-gradient(to right, #fceabb, #f8b500);
+  
   padding: 3rem 2rem;
   text-align: center;
   color: #222;
@@ -105,6 +113,66 @@
   background-color: #afca2a;
 }
 
+/* About Section Styling */
+.about-section {
+ 
+  padding: 60px 20px;
+  text-align: center;
+  color: #333;
+}
+
+.about-section h2 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.about-section p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+
+
+/* Why Choose Us Section */
+.why-choose-us {
+   padding: 40px 20px;
+  text-align: center;
+}
+
+.why-choose-us ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.why-choose-us li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+   /* background: linear-gradient(t, #fceabb, #f8b500); */
+  padding: 40px 20px;
+}
+
+.testimonial {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-left: 5px solid #6a1b9a;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+
+
 /* Footer Section */
 .footer {
   background-color: #222;
@@ -137,5 +205,26 @@
 }
 
 .social-icons a:hover {
-  color: #ff6600;
+  color: #fa2d09;
 }
+
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  z-index: 100;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
