@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>Connect with us:+91-9876543210</p>
+        <p>Connect with us:</p>
         <div className="social-icons">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-facebook-f"></i>
@@ -20,11 +20,19 @@ export default function Footer() {
             <i className="fab fa-whatsapp"></i>
           </a>
         </div>
+
+        {/* Contact Info */}
+        <div className="contact-info">
+          <p>
+            📞 <a href="tel:+919876543210">+91 98765 43210</a>
+          </p>
+          <p>
+            📧 <a href="mailto:evolovesolutionspvtltd@gmail.com">evolovesolutionspvtltd@gmail.com</a>
+          </p>
+        </div>
+
         <p>&copy; {new Date().getFullYear()} Your Statue Store. All rights reserved.</p>
       </div>
     </footer>
-
-
-
   );
 }

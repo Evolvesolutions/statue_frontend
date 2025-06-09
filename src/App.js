@@ -5,6 +5,7 @@ import Home from './Home';
 import About from './About';
 import Footer from './footer';
 import Shop from './shop';
+// import Content from content 
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
               <Home />
               <About />
               <Footer />
-            </>
+              
+            </>                
           } />
           <Route path="/shop" element={<Shop />} />
         </Routes>
