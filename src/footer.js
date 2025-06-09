@@ -16,7 +16,7 @@ export default function Footer() {
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="https://wa.me/91XXXXXXXXXX" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/91 9087654321" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-whatsapp"></i>
           </a>
         </div>
@@ -24,14 +24,14 @@ export default function Footer() {
         {/* Contact Info */}
         <div className="contact-info">
           <p>
-            📞 <a href="tel:+919876543210">+91 98765 43210</a>
+            📞 <a href="tel:+919876543210">+91 9087654321</a>
           </p>
           <p>
-            📧 <a href="mailto:evolovesolutionspvtltd@gmail.com">evolovesolutionspvtltd@gmail.com</a>
+            📧 <a href="mailto:evolvesolutionspvtltd@gmail.com">evolvesolutionspvtltd@gmail.com</a>
           </p>
         </div>
 
-        <p>&copy; {new Date().getFullYear()} Your Statue Store. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Evolvesolutionspvtltd. All rights reserved.</p>
       </div>
     </footer>
   );
